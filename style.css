@@ -3,43 +3,60 @@
     src: url(OptimusPrincepsSemiBold.ttf);
 }
 body {
+
     background: rgb(10, 50, 150);
     font-family: 'Source Sans Pro', sans-serif;
+    background: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
 }
 
 header #title {
-    font-family: OptimusPrinceps;
-    font-size: 45px;
-    color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: white;
     text-align: center;
-    margin: 15px;
+    border-top: 20px solid rgb(48,50,130);
+    border-bottom: 20px solid rgb(235,29,38);
 }
 
+header #title img 
+{
+    width: 20%;
+}
 header #heatlhbartool {
     width: 100%;
-    background: yellow;
+    background: rgb(49,49,49);
     overflow: hidden;
+    height: 80px;
 }
 
 header #heatlhbartool .healthbar {
-    width: 200px;
-    height: 25px;
-    background: green;
+    width: 12%;
+    height: 30px;
+    background: white;
     border: 2px solid white;
-    border-radius: 20px;
+    border-radius: 4px;
     float: left;
     display: inline;
-    color: white;
+    color: rgb(49,49,49);
     text-align: left;
-    padding: 3px;
+    padding-top: 5px;
     padding-left: 30px;
     margin-left: 50px;
     margin-right: 50px;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800; font-size: 25px;
+    text-transform: uppercase;
 }
 
 header #heatlhbartool .healthbar:last-child {
     text-align: right;
     padding-right: 30px;
+    padding-left: 0px;
+    right: 30px;
+    position: absolute
 }
 
 #debate {
@@ -53,45 +70,75 @@ header #heatlhbartool .healthbar:last-child {
 }
 
 #remote {
-    margin: 0 auto;
     text-align: center;
+    display: inline-block;
+    overflow: hidden;
+    height: 300px;
 }
 
 #remote .cmd {
     width: 500px;
     float: left;
     overflow: hidden;
-    display: inline-block;
+    margin-top: 85px;
 }
 
 #remote .cmd a {
     height: 20px;
     width: 170px;
-    border-radius: 5px;
-    border: 1px solid white;
+    border-radius: 3px;
     text-transform: uppercase;
     text-decoration: none;
     color: white;
     margin: 10px;
-    padding: 5px 10px;
+    padding: 15px 10px 10px;
     display: inline-block;
-    font-size: 16px;
+    font-size: 16px; font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
 }
 
-#remote .cmd a:hover {
-    color: lightseagreen;
-}
+
 
 #remote #trump.cmd a.attack {
-    background: rgb(255, 0, 0);
+    background: rgb(48,50,130);
+    border-bottom: 3px solid rgb(48,40,100);
+}
+
+#remote #trump.cmd a.attack:hover {
+    background: rgb(48,40,100);
 }
 
 #remote #clinton.cmd a.attack {
-    background: rgb(0, 0, 255)
+    background: rgb(235,29,38);
+    border-bottom: 3px solid rgb(180,29,38);
 }
 
-footer a {
+#remote #clinton.cmd a.attack:hover {
+    background: rgb(180,29,38);
+}
+
+footer {
     width: 100%;
+    height: 40px;
+    background: rgb(49, 49, 49);
+    display: inline-block;
+    padding-top: 25px;
+    font-size: 10px;
+    color: grey;
+    line-height: 15px;
+    font-weight: 300;
+}
+
+footer a{
+    color: grey;
     text-decoration: none;
-    color: white;
+    font-weight: 400;  
+    font-size: 10px;
+    font-style: italic;
+}
+
+footer a[title='webstart'] {
+    color: rgb(53, 83, 203);
+    font-weight: 300;
+    font-style: normal;
 }
