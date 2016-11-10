@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     
@@ -8,8 +8,11 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="animation.css">
     <link rel="stylesheet" href="style.css">
+
+    <script src="fun.js"></script>
 </head>
 <body>
+<<<<<<< HEAD
     <div id="debate">
         <img src="source/trump.gif" alt="trump gif">
         <img src="source/clinton.gif" alt="clinton gif">
@@ -17,21 +20,53 @@
     
     <div id="remote">
         <div class="cmd" id="trump">
+=======
+    <!-- header heatlh bar tool -->
+    <header>
+        <div id="title">TRUMP VS CLINTON</div>
+        <!-- heatlh bar tool -->
+        <div id="heatlhbartool">
+>>>>>>> 1e95bbd3a7b665abe1b70022f237527b884be117
             <span id="trump"></span>
-            <a class="attack">fire - 30pt</a>
-            <a class="attack">emailing - 50pt</a>
-            <a class="attack">shot drill - 100pt</a>
-            <a class="attack">frg</a>
+            <div class="healthbar">Trump - <div id="lifetrump">100%</div></div>
+            <span id="clinton"></span>
+            <div class="healthbar" id="clinton">Clinton - <div id="lifeclinton">100%</div></div>
         </div>
-        <div class="cmd" id="clinton">
-            <span id="cliton"></span>
-            <a class="attack">lazer - 40pt</a>
-            <a class="attack"> - 60pt</a>
-            <a class="attack">lgbt - 90pt</a>
-            <a class="attack">ef</a>
+        <!-- end heatlh bar tool -->
+    </header>
+    <!-- end header -->
+    <!-- main -->
+    <main>
+        <!-- debate -->
+        <div id="debate">
+            <img src="source/trump.gif" class="ring" id="trump" alt="trump gif">
+            <img src="source/clinton.gif" class="ring" id="clinton" alt="clinton gif">
         </div>
-    </div>
-   
-    
+        <!-- end debate -->
+        <!-- remote -->
+        <div id="remote">
+            <div class="cmd" id="trump">
+                <span id="trump"></span>
+                <a href="#" class="attack">fire - 30pt</a>
+                <a href="#" class="attack">emailing - 60pt</a>
+                <a href="#" class="attack">shot drill - 100pt</a>
+                <a href="#" class="attack">obamasqué - 150pt</a>
+            </div>
+            <div class="cmd" id="clinton">
+                <span id="cliton"></span>
+                <a href="#" class="attack">lazer - 40pt</a>
+                <a href="#" class="attack">jcpas - 50pt</a>
+                <a href="#" class="attack">lgbt - 90pt</a>
+                <a href="#" class="attack">untruc - 160pt</a>
+            </div>
+        </div>
+        <!-- end remotee -->
+    </main>
+    <!-- end main -->
+    <!-- footer -->
+    <footer>
+        <a href="http://yoanndm.fr?b=d">Yoann Di Maria</a> & <a href="#">Thibault Germain</a>, <a href="#webstart">Webstart</a>
+    </footer>
+    <!-- end footer -->
 </body>
 </html>
