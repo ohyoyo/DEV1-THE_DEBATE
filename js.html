@@ -11,37 +11,37 @@
         border: 2px solid black;
         color: white;
     }
+    #lifeclinton {
+        width: 1000px;
+        background: red;
+        border: 2px solid black;
+        color: white;
+    }
     </style>
     
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
 </head>
 <body>
+    <div id="lifeclinton">100%</div>
     <div id="lifetrump">100%</div>
-    <div id="clickun">attaque</div>
-    <div id="clickdeux">attaque</div>
-    <div id="clicktrois">attaque</div>
+    <a onclick="javascript:attack('10', '#lifetrump');">attaque</a>
+    <a onclick="javascript:attack('50', '#lifetrump');">attaque</a>
+    <a onclick="javascript:attack('200', '#lifetrump');">attaque</a>
+    <a onclick="javascript:attack('400', '#lifetrump');">attaque</a>
+    <a onclick="javascript:attack('10', '#lifeclinton');">ffattaque</a>
+    <a onclick="javascript:attack('50', '#lifeclinton');">ffattaque</a>
+    <a onclick="javascript:attack('200', '#lifeclinton');">ffattaque</a>
+    <a onclick="javascript:attack('400', '#lifeclinton');">ffattaque</a>
     
     <script>
-        $( "#clickun" ).click(function() {
-            var taille = $( "#lifetrump" ).css( "width" );
+        function attack(niv, bar) {
+            var taille = $( bar ).css( "width" );
             var res = taille.replace("px", "");
-            var cal = res - 100;
-           $( "#lifetrump" ).css("width", cal);
-        });
-        $( "#clickdeux" ).click(function() {
-            var taille = $( "#lifetrump" ).css( "width" );
-            var res = taille.replace("px", "");
-            var cal = res - 200;
-           $( "#lifetrump" ).css("width", cal);
-        });
-        $( "#clicktrois" ).click(function() {
-            var taille = $( "#lifetrump" ).css( "width" );
-            var res = taille.replace("px", "");
-            var cal = res - 300;
-           $( "#lifetrump" ).css("width", cal);
-        });
+            var cal = res - niv;
+           $( bar ).css("width", cal);
+        };
         
     </script>
 </body>
-</html>
+</html

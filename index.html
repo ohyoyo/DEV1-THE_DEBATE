@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="animation.css">
     <link rel="stylesheet" href="style.css">
 
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    
     <script src="fun.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800" rel="stylesheet">
 </head>
@@ -44,17 +46,17 @@
         <div id="remote">
             <div class="cmd" id="trump">
                 <span id="trump"></span>
-                <a href="#" class="attack">fire - 30pt</a>
-                <a href="#" class="attack">emailing - 60pt</a>
-                <a href="#" class="attack">shot drill - 100pt</a>
-                <a href="#" class="attack">obamasqué - 150pt</a>
+                <a onclick="javascript:attack('10', '#healthclinton');" class="attack">fire - 10pt</a>
+                <a onclick="javascript:attack('30', '#healthclinton');" class="attack">emailing - 30pt</a>
+                <a onclick="javascript:attack('60', '#healthclinton');" class="attack">shot drill - 60pt</a>
+                <a onclick="javascript:attack('100', '#healthclinton');" class="attack">obamasqué - 100pt</a>
             </div>
             <div class="cmd" id="clinton">
                 <span id="cliton"></span>
-                <a href="#" class="attack">lazer - 40pt</a>
-                <a href="#" class="attack">jcpas - 50pt</a>
-                <a href="#" class="attack">lgbt - 90pt</a>
-                <a href="#" class="attack">untruc - 160pt</a>
+                <a onclick="javascript:attack('20', '#healthtrump');" class="attack">lazer - 20pt</a>
+                <a onclick="javascript:attack('30', '#healthtrump');"  class="attack">jcpas - 30pt</a>
+                <a onclick="javascript:attack('70', '#healthtrump');"  class="attack">lgbt - 70pt</a>
+                <a onclick="javascript:attack('90', '#healthtrump');"  class="attack">untruc - 90pt</a>
             </div>
         </div>
         <!-- end remotee -->
@@ -65,5 +67,7 @@
         <a href="http://yoanndm.fr?b=d">Yoann Di Maria</a> & <a href="#">Thibault Germain</a> <br> <a href="#webstart" title="webstart">Webstart</a>
     </footer>
     <!-- end footer -->
+       
+    <script src="fun.js"></script>>
 </body>
 </html>
