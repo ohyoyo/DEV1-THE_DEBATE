@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+
+    <style>
+    #lifetrump {
+        width: 1000px;
+        background: green;
+        border: 2px solid black;
+        color: white;
+    }
+    </style>
+    
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+</head>
+<body>
+    <div id="lifetrump">100%</div>
+    <div id="clickun">attaque</div>
+    <div id="clickdeux">attaque</div>
+    <div id="clicktrois">attaque</div>
+    
+    <script>
+        $( "#clickun" ).click(function() {
+            var taille = $( "#lifetrump" ).css( "width" );
+            var res = taille.replace("px", "");
+            var cal = res - 100;
+           $( "#lifetrump" ).css("width", cal);
+        });
+        $( "#clickdeux" ).click(function() {
+            var taille = $( "#lifetrump" ).css( "width" );
+            var res = taille.replace("px", "");
+            var cal = res - 200;
+           $( "#lifetrump" ).css("width", cal);
+        });
+        $( "#clicktrois" ).click(function() {
+            var taille = $( "#lifetrump" ).css( "width" );
+            var res = taille.replace("px", "");
+            var cal = res - 300;
+           $( "#lifetrump" ).css("width", cal);
+        });
+        
+    </script>
+</body>
+</html>
