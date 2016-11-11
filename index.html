@@ -38,8 +38,6 @@
     <main>
         <!-- debate -->
         <div id="debate">
-           
-           
            <!-- Trump -->
             <img src="source/trump.gif" class="ring" id="trump" alt="trump gif">
                 <div id="trump-attacks">
@@ -47,29 +45,17 @@
                      
                     </div>
                 </div>
-    
             <!-- Clinton -->
             <img src="source/clinton.gif" class="ring" id="clinton" alt="clinton gif">
-               
-                 
-                  
                 <div id="clinton-attacks">
-                    
                         <div id="lazer-itself"></div>
-                        <div id="rainbow"></div>
-                        
-                        
+                        <div id="rainbow"></div>  
                 </div>
                 
                 <div id="WWattack">
                     <img src="source/wwoman.png" alt="wonder woman" id="wonder-woman">
                 </div>
-                
-                
-                
         </div>
-        
-            
         <!-- end debate -->
         <!-- remote -->
         <div id="remote">
@@ -82,9 +68,9 @@
             </div>
             <div class="cmd" id="clinton">
                 <span id="clinton"></span>
-                <a onclick="javascript:attack('20', '#healthtrump'); startlazer()" class="attack" id="lazer-button">lazer - 20pt</a>
-                <a onclick="javascript:attack('30', '#healthtrump'); startwonder()"  class="attack">Girl power - 30pt</a>
-                <a onclick="javascript:attack('70', '#healthtrump'); startrainbow()"  class="attack" id="wonder-button">lgbt - 70pt</a>
+                <a onclick="javascript:attack('20', '#healthtrump', 'lazer-itself', 'lazer-click');" class="attack" id="lazer-button">lazer - 20pt</a>
+                <a onclick="javascript:attack('30', '#healthtrump', 'WWattack', 'wonder-click');" class="attack">Girl power - 30pt</a>
+                <a onclick="javascript:attack('70', '#healthtrump', 'rainbow', 'rainbow-click');" class="attack" id="wonder-button">lgbt - 70pt</a>
                 <a onclick="javascript:attack('90', '#healthtrump');"  class="attack">chuck - 90pt</a>
             </div>
         </div>
@@ -98,9 +84,5 @@
     <!-- end footer -->
        
     <script src="fun.js"></script>
-<<<<<<< HEAD
-=======
-
->>>>>>> b37b48cfb558f6f442782280bca7b4c8b03646e8
 </body>
 </html>
