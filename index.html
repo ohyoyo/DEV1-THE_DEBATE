@@ -50,11 +50,21 @@
     
             <!-- Clinton -->
             <img src="source/clinton.gif" class="ring" id="clinton" alt="clinton gif">
+               
+                 
+                  
                 <div id="clinton-attacks">
-                     <div id="lazer">
-                        <div></div>
-                    </div>
+                    
+                        <div id="lazer-itself"></div>
+                        <div id="rainbow"></div>
+                        
+                        
                 </div>
+                
+                <div id="WWattack">
+                    <img src="source/wwoman.png" alt="wonder woman" id="wonder-woman">
+                </div>
+                
                 
                 
         </div>
@@ -71,11 +81,11 @@
                 <a onclick="javascript:attack('100', '#healthclinton');" class="attack">obamasqué - 100pt</a>
             </div>
             <div class="cmd" id="clinton">
-                <span id="cliton"></span>
-                <a onclick="javascript:attack('20', '#healthtrump');" class="attack">lazer - 20pt</a>
-                <a onclick="javascript:attack('30', '#healthtrump');"  class="attack">jcpas - 30pt</a>
-                <a onclick="javascript:attack('70', '#healthtrump');"  class="attack">lgbt - 70pt</a>
-                <a onclick="javascript:attack('90', '#healthtrump');"  class="attack">untruc - 90pt</a>
+                <span id="clinton"></span>
+                <a onclick="javascript:attack('20', '#healthtrump'); startlazer()" class="attack" id="lazer-button">lazer - 20pt</a>
+                <a onclick="javascript:attack('30', '#healthtrump'); startwonder()"  class="attack">Girl power - 30pt</a>
+                <a onclick="javascript:attack('70', '#healthtrump'); startrainbow()"  class="attack" id="wonder-button">lgbt - 70pt</a>
+                <a onclick="javascript:attack('90', '#healthtrump');"  class="attack">chuck - 90pt</a>
             </div>
         </div>
         <!-- end remote -->
@@ -87,6 +97,7 @@
     </footer>
     <!-- end footer -->
        
-    <script src="fun.js"></script>>
+    <script src="fun.js"></script>
+
 </body>
 </html>

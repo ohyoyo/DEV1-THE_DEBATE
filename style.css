@@ -85,6 +85,7 @@ header #healthclinton {
     width: 350px;
     height: 39px;
     position: absolute;
+    background: fixed;
     background: #64ce27; /* Old browsers */
     background: -moz-linear-gradient(left, #64ce27 0%, #fff832 48%, #ff2828 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(left, #64ce27 0%,#fff832 48%,#ff2828 100%); /* Chrome10-25,Safari5.1-6 */
@@ -107,6 +108,7 @@ header #healthclinton {
     border-bottom: 10px solid rgb(49,49,49);
     margin-left: auto;
     margin-right: auto;
+    overflow: hidden;
 }
 
 #debate .ring {
@@ -118,6 +120,7 @@ header #healthclinton {
 
 #debate>div {
     position: absolute;
+    z-index: 60;
 }
 
 #debate img {
@@ -135,24 +138,64 @@ header #healthclinton {
     overflow: hidden;
 }
 
-#lazer div {
-    width: 100px;
+#lazer-itself {
+    width: 50px;
     height: 5px;
     background: red;
     position: absolute;
-    opacity: 0;
     right: -10px;
     top: 110px;
     z-index: 45;
+    opacity: 0;
+}
+
+.lazer-click {
     -webkit-animation: lazer 0.2s ease-in-out infinite alternate,
-        lazershot 0.6s  3;
+        lazershot 0.6s  3 ease-in;
     -moz-animation: lazer 0.2s ease-in-out infinite alternate,
-        lazershot 0.6s 3;
+        lazershot 0.6s 3 ease-in;
     animation: lazer 0.2s ease-in-out infinite alternate,
-        lazershot 0.6s 3;
+        lazershot 0.6s 3 ease-in;
     
 }
 
+
+#rainbow {
+    width: 5000px;
+    height: 50px;
+    background: #e52d2d; /* Old browsers */
+    background: -moz-linear-gradient(top, #e52d2d 0%, #e52d2d 17%, #edad2f 17%, #edad2f 34%, #ede02f 34%, #ede02f 51%, #2dc425 51%, #2dc425 68%, #20a4c9 68%, #20a4c9 85%, #885ce0 85%, #885ce0 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #e52d2d 0%,#e52d2d 17%,#edad2f 17%,#edad2f 34%,#ede02f 34%,#ede02f 51%,#2dc425 51%,#2dc425 68%,#20a4c9 68%,#20a4c9 85%,#885ce0 85%,#885ce0 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #e52d2d 0%,#e52d2d 17%,#edad2f 17%,#edad2f 34%,#ede02f 34%,#ede02f 51%,#2dc425 51%,#2dc425 68%,#20a4c9 68%,#20a4c9 85%,#885ce0 85%,#885ce0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    position: absolute;
+    right: -5000px;
+    top: 110px;
+    z-index: 30;
+    opacity: 0;
+}
+
+.rainbow-click {
+    -webkit-animation: rainbowshot 2s  ease-in;
+    -moz-animation: rainbowshot 2s ease-in;
+    animation: rainbowshot 2s ease-in;
+    
+}
+
+
+
+#WWattack {
+    position: absolute;
+    top: 10px;
+    right: -510px;
+    overflow: hidden;
+    width: 500px;
+}
+
+.wonder-click {
+    -webkit-animation: wonderfly 2s  ease-out;
+    -moz-animation: wonderfly 2s ease-out;
+    animation: wonderfly 2s ease-out;
+}
 
 /* COMMANDS */
 
