@@ -1,0 +1,25 @@
+@-webkit-keyframes lazer {
+  from {
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
+  }
+  to {
+    box-decoration-break:  -shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
+  }
+}
+
+
+@-webkit-keyframes lazershot {
+	from { left: 75%; opacity: 1; }
+    to { left: -100%; }
+}
+
+@-webkit-keyframes rainbowshot {
+	from { left: 75%; opacity: 1; }
+    to { left: -100%; opacity: 1 }
+}
+
+@-webkit-keyframes wonderfly {
+	from { left: 77%; opacity: 1; }
+    to { left: -100%; opacity: 1 }
+}
+
