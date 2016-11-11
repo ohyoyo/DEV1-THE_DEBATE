@@ -5,6 +5,9 @@
 
 /* GENERAL */
 body {
+
+    background: rgb(10, 50, 150);
+    font-family: 'Source Sans Pro', sans-serif;
     background: whitesmoke;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
