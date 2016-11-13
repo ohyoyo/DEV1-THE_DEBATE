@@ -23,3 +23,13 @@
     to { left: -100%; opacity: 1 }
 }
 
+@-webkit-keyframes chuckappear {
+	0% { top: 280px; opacity: 1}
+    50% { top: 15px; opacity: 1;}
+    100% { top: 15px; opacity: 1;}
+}
+
+@-webkit-keyframes bulletshot {
+	0% { left: 350px; opacity: 1}
+    50% { left: 0px; opacity: 1;}
+}
