@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     
     <title>DEBATE TRUMP VS CLINTON</title>
-    
+
+    <meta name="viewport" content="width=device-width, maximum-scale=1">
+    <meta name="author" content="Yoann Di Maria & Thibault Germain">
+    <meta name="description" content="CSS animation on a diplomatic battle between Hillary Clinton and Donald Trump.">
+    <meta name="keywords" content="animation, donald trump, trump, donald, hillary, hillary clinton, clinton, debate, usa, webdesign, artist, web design, web, deisng, student, graphic, pao, graphique, mobile, web, developper, développement, dev, http, php, html, css, python, javascript, js, java, curl, ios, android, os, windows, yoannd di maria, yoann, di maria">
+    <meta name="copyright" content="© YDM & TG, Webstart">
+
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="animation.css">
     <link rel="stylesheet" href="style.css">
-
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     
-    <script src="fun.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800" rel="stylesheet">
 </head>
 <body>
@@ -21,7 +24,7 @@
     <!-- header heatlh bar tool -->
     <header>
         <div id="title">
-           <a href="index.html"> <img src="source/Debate-logo.png" alt="logo"> </a>
+           <a href="index.html"> <img src="source/Debate-logo.png" alt="trump vs hillary"> </a>
         </div>
         <!-- heatlh bar tool -->
         <div id="heatlhbartool">
@@ -41,9 +44,10 @@
            <!-- Trump -->
             <img src="source/trump.gif" class="ring" id="trump" alt="trump gif">
                 <div id="trump-attacks">
-                     <div id="fire">
-                     
-                    </div>
+                     <div id="fire"></div>
+                     <div id="emailing"></div>
+                     <div id="shot"></div>
+                     <div id="obamasque"></div>
                 </div>
             <!-- Clinton -->
             <img src="source/clinton.gif" class="ring" id="clinton" alt="clinton gif">
@@ -62,15 +66,15 @@
             <div class="cmd" id="trump">
                 <span id="trump"></span>
                 <a onclick="javascript:attack('10', '#healthclinton');" class="attack">fire - 10pt</a>
-                <a onclick="javascript:attack('30', '#healthclinton');" class="attack">emailing - 30pt</a>
-                <a onclick="javascript:attack('60', '#healthclinton');" class="attack">shot drill - 60pt</a>
-                <a onclick="javascript:attack('100', '#healthclinton');" class="attack">obamasqué - 100pt</a>
+                <a onclick="javascript:attack('20', '#healthclinton');" class="attack">emailing - 20pt</a>
+                <a onclick="javascript:attack('50', '#healthclinton');" class="attack">shot drill - 50pt</a>
+                <a onclick="javascript:attack('80', '#healthclinton');" class="attack">obamasqué - 80pt</a>
             </div>
             <div class="cmd" id="clinton">
                 <span id="clinton"></span>
-                <a onclick="javascript:attack('20', '#healthtrump', 'lazer-itself', 'lazer-click');" class="attack" id="lazer-button">lazer - 20pt</a>
+                <a onclick="javascript:attack('15', '#healthtrump', 'lazer-itself', 'lazer-click');" class="attack" >lazer - 15pt</a>
                 <a onclick="javascript:attack('30', '#healthtrump', 'WWattack', 'wonder-click');" class="attack">Girl power - 30pt</a>
-                <a onclick="javascript:attack('70', '#healthtrump', 'rainbow', 'rainbow-click');" class="attack" id="wonder-button">lgbt - 70pt</a>
+                <a onclick="javascript:attack('40', '#healthtrump', 'rainbow', 'rainbow-click');" class="attack">lgbt - 40pt</a>
                 <a onclick="javascript:attack('90', '#healthtrump');"  class="attack">chuck - 90pt</a>
             </div>
         </div>
@@ -79,10 +83,14 @@
     <!-- end main -->
     <!-- footer -->
     <footer>
-        <a href="http://yoanndm.fr?b=d">Yoann Di Maria</a> & <a href="#">Thibault Germain</a> <br> <a href="#webstart" title="webstart">Webstart</a>
+        <a href="http://yoanndm.fr" target="_bank">Yoann Di Maria</a> & <a href="#">Thibault Germain</a> <br> <a href="http://ecole-webstart.com" target="_bank" title="webstart">Webstart</a>
     </footer>
     <!-- end footer -->
-       
+    <!-- script javascript -> use jquery -->
     <script src="fun.js"></script>
+    
+    <!-- include jquery api -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <!-- end script javascript -->
 </body>
 </html>

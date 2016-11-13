@@ -1,8 +1,3 @@
-@font-face {
-    font-family: OptimusPrinceps;
-    src: url(OptimusPrincepsSemiBold.ttf);
-}
-
 /* GENERAL */
 body {
 
@@ -13,7 +8,6 @@ body {
     text-align: center;
 }
 
-
 /* HEADER */ 
 
 header #title {
@@ -21,17 +15,16 @@ header #title {
     padding-bottom: 10px;
     background-color: whitesmoke;
     text-align: center;
-    border-top: 20px solid rgb(48,50,130);
-    border-bottom: 20px solid rgb(235,29,38);
+    border-top: 20px solid rgb(48, 50, 130);
+    border-bottom: 20px solid rgb(235, 29, 38);
 }
 
-header #title img 
-{
+header #title img {
     width: 20%;
 }
 header #heatlhbartool {
     width: 100%;
-    background: rgb(49,49,49);
+    background: rgb(49, 49, 49);
     overflow: hidden;
     height: 80px;
     position: relative;
@@ -40,8 +33,8 @@ header #heatlhbartool {
 header #heatlhbartool .healthbar {
     width: 12%;
     height: 30px;
-    background: white;
-    border: 2px solid white;
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
     border-radius: 4px;
     float: left;
     display: inline;
@@ -69,10 +62,10 @@ header #healthtrump {
     width: 350px;
     height: 39px;
     position: absolute;
-    background: #ff2828; /* Old browsers */
-    background: -moz-linear-gradient(left, #ff2828 0%, #fff832 52%, #64ce27 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #ff2828 0%,#fff832 52%,#64ce27 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, #ff2828 0%,#fff832 52%,#64ce27 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: rgb(255, 40, 40); /* Old browsers */
+    background: -moz-linear-gradient(left, rgb(255, 40, 40) 0%, rgb(255, 248, 50) 52%, #64ce27 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgb(255, 40, 40) 0%, rgb(255, 248, 50) 52%,rgb(100, 206, 39) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgb(255, 40, 40) 0%, rgb(255, 248, 50) 52%, rgb(100, 206, 39) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     top: 20px;
     left: 220px;
     border-top-right-radius: 4px;
@@ -86,10 +79,10 @@ header #healthclinton {
     height: 39px;
     position: absolute;
     background: fixed;
-    background: #64ce27; /* Old browsers */
-    background: -moz-linear-gradient(left, #64ce27 0%, #fff832 48%, #ff2828 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #64ce27 0%,#fff832 48%,#ff2828 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, #64ce27 0%,#fff832 48%,#ff2828 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: rgb(100, 206, 39); /* Old browsers */
+    background: -moz-linear-gradient(left, rgb(100, 206, 39) 0%, rgb(255, 248, 50) 48%, rgb(255, 40, 40) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgb(100, 206, 39) 0%,rgb(255, 248, 50) 48%,rgb(255, 40, 40) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgb(100, 206, 39) 0%, rgb(255, 248, 50) 48%, rgb(255, 40, 40) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     top: 20px;
     right: 280px;
     border-top-left-radius: 4px;
@@ -98,14 +91,13 @@ header #healthclinton {
     transform: skewX(10deg);
 }
 
-
 /* DEBATE - RING */
 
 #debate {
     background-image: url(source/sky.jpg);
     background-size: 100%;
     position: relative;
-    border-bottom: 10px solid rgb(49,49,49);
+    border-bottom: 10px solid rgb(49, 49, 49);
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
@@ -141,7 +133,7 @@ header #healthclinton {
 #lazer-itself {
     width: 50px;
     height: 5px;
-    background: red;
+    background: rgb(255, 0, 0);
     position: absolute;
     right: -10px;
     top: 110px;
@@ -158,14 +150,13 @@ header #healthclinton {
         lazershot 0.6s 3 ease-in;
 }
 
-
 #rainbow {
     width: 5000px;
     height: 50px;
     background: #e52d2d; /* Old browsers */
-    background: -moz-linear-gradient(top, #e52d2d 0%, #e52d2d 17%, #edad2f 17%, #edad2f 34%, #ede02f 34%, #ede02f 51%, #2dc425 51%, #2dc425 68%, #20a4c9 68%, #20a4c9 85%, #885ce0 85%, #885ce0 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #e52d2d 0%,#e52d2d 17%,#edad2f 17%,#edad2f 34%,#ede02f 34%,#ede02f 51%,#2dc425 51%,#2dc425 68%,#20a4c9 68%,#20a4c9 85%,#885ce0 85%,#885ce0 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #e52d2d 0%,#e52d2d 17%,#edad2f 17%,#edad2f 34%,#ede02f 34%,#ede02f 51%,#2dc425 51%,#2dc425 68%,#20a4c9 68%,#20a4c9 85%,#885ce0 85%,#885ce0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: -moz-linear-gradient(top, rgb(229, 45, 45) 0%, rgb(229, 45, 45) 17%, rgb(237, 173, 47) 17%, rgb(237, 173, 47) 34%, rgb(237, 224, 47) 34%, rgb(237, 224, 47) 51%, rgb(45, 196, 37) 51%, rgb(45, 196, 37) 68%, rgb(32, 164, 201) 68%, rgb(32, 164, 201) 85%, rgb(136, 92, 224) 85%, rgb(136, 92, 224) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgb(229, 45, 45) 0%, rgb(229, 45, 45) 17%, rgb(237, 173, 47) 17%, rgb(237, 173, 47) 34%, rgb(237, 224, 47) 34%, rgb(237, 224, 47) 51%, rgb(45, 196, 37) 51%, rgb(45, 196, 37) 68%, rgb(32, 164, 201) 68%, rgb(32, 164, 201) 85%, rgb(136, 92, 224) 85%, rgb(136, 92, 224) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgb(229, 45, 45) 0%, rgb(229, 45, 45) 17%, rgb(237, 173, 47) 17%, rgb(237, 173, 47) 34%, rgb(237, 224, 47) 34%, rgb(237, 224, 47) 51%, rgb(45, 196, 37) 51%, rgb(45, 196, 37) 68%, rgb(32, 164, 201) 68%, rgb(32, 164, 201) 85%, rgb(136, 92, 224) 85%, rgb(136, 92, 224) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     position: absolute;
     right: -5000px;
     top: 110px;
@@ -180,8 +171,6 @@ header #healthclinton {
     
 }
 
-
-
 #WWattack {
     position: absolute;
     top: 10px;
@@ -194,6 +183,22 @@ header #healthclinton {
     -webkit-animation: wonderfly 2s  ease-out;
     -moz-animation: wonderfly 2s ease-out;
     animation: wonderfly 2s ease-out;
+}
+
+#emailingat {
+    background: url('source/picto-mail.png');
+    background-repeat: no-repeat;
+    background-size: 200%;
+    width: 56px;
+    height: 52px;
+}
+
+#emailingat:last-child {
+    background: url('source/picto-mail.png') -56px 0px;
+    background-repeat: no-repeat;
+    background-size: 200%;
+    width: 56px;
+    height: 52px;
 }
 
 /* COMMANDS */
@@ -218,7 +223,7 @@ header #healthclinton {
     border-radius: 3px;
     text-transform: uppercase;
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
     margin: 10px;
     padding: 15px 10px 10px;
     display: inline-block;
@@ -227,23 +232,22 @@ header #healthclinton {
 }
 
 #remote #trump.cmd a.attack {
-    background: rgb(48,50,130);
-    border-bottom: 3px solid rgb(48,40,100);
+    background: rgb(48, 50, 130);
+    border-bottom: 3px solid rgb(48, 40, 100);
 }
 
 #remote #trump.cmd a.attack:hover {
-    background: rgb(48,40,100);
+    background: rgb(48, 40, 100);
 }
 
 #remote #clinton.cmd a.attack {
-    background: rgb(235,29,38);
-    border-bottom: 3px solid rgb(180,29,38);
+    background: rgb(235, 29, 38);
+    border-bottom: 3px solid rgb(180, 29, 38);
 }
 
 #remote #clinton.cmd a.attack:hover {
-    background: rgb(180,29,38);
+    background: rgb(180, 29, 38);
 }
-
 
 /* FOOTER */
 
@@ -265,6 +269,10 @@ footer a{
     font-weight: 400;  
     font-size: 10px;
     font-style: italic;
+}
+
+footer a:hover {
+    color: rgb(240, 248, 255);
 }
 
 footer a[title='webstart'] {
