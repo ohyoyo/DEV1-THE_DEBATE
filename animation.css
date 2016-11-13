@@ -10,16 +10,27 @@
 
 @-webkit-keyframes lazershot {
 	from { left: 75%; opacity: 1; }
-    to { left: -100%; }
+    to { left: -100%; opacity: 1; }
 }
 
 @-webkit-keyframes rainbowshot {
 	from { left: 75%; opacity: 1; }
-    to { left: -100%; opacity: 1 }
+    to { left: -100%; opacity: 1; }
 }
 
 @-webkit-keyframes wonderfly {
 	from { left: 77%; opacity: 1; }
-    to { left: -100%; opacity: 1 }
+    to { left: -100%; opacity: 1; }
 }
 
+@-webkit-keyframes zemailing {
+    
+    10% {
+        left: 30%;   
+        background: url('source/picto-mail.png');
+    }
+    20% {
+        left: 70%;
+        background: url('source/picto-mail.png') -56px 0px;
+    
+}

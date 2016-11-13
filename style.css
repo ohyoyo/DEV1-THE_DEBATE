@@ -168,7 +168,6 @@ header #healthclinton {
     -webkit-animation: rainbowshot 2s  ease-in;
     -moz-animation: rainbowshot 2s ease-in;
     animation: rainbowshot 2s ease-in;
-    
 }
 
 #WWattack {
@@ -185,20 +184,22 @@ header #healthclinton {
     animation: wonderfly 2s ease-out;
 }
 
+
 #emailingat {
+    position: absolute;
+    top: 10px;
+    overflow: hidden;
+    left: -510px;
+    width: 500px;
     background: url('source/picto-mail.png');
+    height: 60px;
     background-repeat: no-repeat;
-    background-size: 200%;
-    width: 56px;
-    height: 52px;
 }
 
-#emailingat:last-child {
-    background: url('source/picto-mail.png') -56px 0px;
-    background-repeat: no-repeat;
-    background-size: 200%;
-    width: 56px;
-    height: 52px;
+.email-click {
+    -webkit-animation: zemailing 2s ease-out;
+    -moz-animation: zemailing 2s ease-out;
+    animation: zemailing 2s ease-out;
 }
 
 /* COMMANDS */
