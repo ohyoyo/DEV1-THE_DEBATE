@@ -65,7 +65,6 @@ header #heatlhbartool #bartrump {
     
 }
 
-
 header #heatlhbartool #barclinton {
     float: right;
     text-align: right;
@@ -284,7 +283,20 @@ header #healthclinton {
         bulletshot 2s 1s 3 ease-in;
 }
 
+#obama {
+    position: absolute;
+    top: 280px;
+    left: 150px;
+}
 
+.obama-click {
+    -webkit-animation: obama 2s  ease-out,
+        obamattack 2s 1s 3 ease-in;
+    -moz-animation: obama 2s ease-out,
+        obamattack 2s 1s 3 ease-in;
+    animation: obama 2s ease-out,
+        obamattack 2s 1s 3 ease-in;
+}
 
 /* TRUMP ATTACKS */
 
