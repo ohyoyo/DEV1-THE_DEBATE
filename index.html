@@ -13,19 +13,23 @@
 
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="animation.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="asset/css/reset.css">
+    <link rel="stylesheet" href="asset/css/animation.css">
+    <link rel="stylesheet" href="asset/css/style.css">
     
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800" rel="stylesheet">
 </head>
 <body>
 
+ 
     <!-- header heatlh bar tool -->
     <header>
+       <a href="javascript:document.getElementById('son').pause();" style="text-decoration:none;color:white;font-size:12px;position:absolute;" id="controls">couper le son</a><audio id="son"autoplay><source src="asset/song/fight.mp3" type="audio/mp3"> <source src="asset/song/fight.mp3" type="audio/mp3"></audio>
         <div id="title">
-           <a href="index.html"> <img src="source/Debate-logo.png" alt="trump vs hillary"> </a>
+           <a href="index.html"> <img src="asset/img/Debate-logo.png" alt="trump vs hillary"> </a>
+    
         </div>
+        <div id="win" style="display:none;background:white;width:100%;height:80px;color:rgb(235, 29, 38);text-align:center;padding-top:30px;font-size:45px;font-family:'Open Sans',sans-serif;font-weight:800;">WIN ‼️</div>
         <!-- heatlh bar tool -->
         <div id="heatlhbartool">
             <div class="healthbar" id="bartrump">Trump</div>
@@ -42,24 +46,30 @@
     <main>
         <!-- debate -->
         <div id="debate">
+          <div id="anim">
+              <img class="fighter" src="asset/img/B_24-J.png">
+              <img class="fighter" src="asset/img/F14-Tomcat.png">
+              <img class="fighter" src="asset/img/1372693555.png">
+              <img class="fighter" src="asset/img/spitfire.png">
+          </div>
            <!-- Trump -->
-            <img src="source/trump.gif" class="ring" id="trump" alt="trump gif">
+            <img src="asset/img/trump.gif" class="ring" id="trump" alt="trump gif">
                 <div id="trump-attacks">
-                    <img src="source/fire.gif" alt="fire gif" id="afire" >
-                    <img src="source/quiff.png" alt="fire gif" id="quiff" >
+                    <img src="asset/img/fire.gif" alt="fire gif" id="afire" >
+                    <img src="asset/img/quiff.png" alt="fire gif" id="quiff" >
                     <div id="emailingat"></div>
-                        <div id="obama"><img src="source/president_official_portrait_hires.png" alt="obama"></div>
+                        <div id="obama"><img src="asset/img/president_official_portrait_hires.png" alt="obama"></div>
                  </div>   
             <!-- Clinton -->
-            <img src="source/clinton.gif" class="ring" id="clinton" alt="clinton gif">
+            <img src="asset/img/clinton.gif" class="ring" id="clinton" alt="clinton gif">
                 <div id="clinton-attacks">
                         <div id="lazer-itself"></div>
                         <div id="rainbow"></div>
-                        <div id="chuck"><img src="source/chuck.png" alt="chuck"></div>
+                        <div id="chuck"><img src="asset/img/chuck.png" alt="chuck"></div>
                 </div>
                 
                 <div id="WWattack">
-                    <img src="source/wwoman.png" alt="wonder woman">
+                    <img src="asset/img/wwoman.png" alt="wonder woman">
                 </div>
         </div>
         <!-- end debate -->
@@ -89,7 +99,7 @@
     </footer>
     <!-- end footer -->
     <!-- script javascript -> use jquery -->
-    <script src="fun.js"></script>
+    <script src="asset/js/fun.js"></script>
     
     <!-- include jquery api -->
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>

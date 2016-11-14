@@ -1,0 +1,174 @@
+@-webkit-keyframes lazer {
+  from {
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
+  }
+  to {
+    box-decoration-break:  -shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
+    }
+}
+ 
+
+/* TRUMP ATTACK */
+
+@-webkit-keyframes quiffkill {
+	10% {
+        opacity: 1;
+        left: 10%;
+        top: 20px;
+    }
+    20% {
+        opacity: 1;
+        left: 20%;
+        top: 30px;
+    }
+    30% {
+        opacity: 1;
+        left: 30%;
+        top: 20px;
+    }
+    40% {
+        opacity: 1;
+        left: 40%;
+        top: 10px;
+    }
+    60% {
+        opacity: 1;
+        left: 60%;
+        top: 20px;
+    }
+    70% {
+        opacity: 1;
+        left: 70%;
+        top: 30px;
+    }
+    80% {
+        opacity: 1;
+        left: 80%;
+        top: 20px;
+    }
+    90% {
+        opacity: 1;
+        left: 90%;
+        top: 10px;
+    }
+    100% {
+        opacity: 1;
+        left: 100%;
+        top: 20px;
+    }
+}
+
+@-webkit-keyframes bjfly1 {
+    from {
+        left: -5%;
+        top: 0px;
+    } to {
+        left: 105%;
+        top: 150px;
+    }
+}
+
+@-webkit-keyframes bjfly2 {
+    from {
+        left: -5%;
+        top: 150px;
+    } to {
+        left: 105%;
+        top: 10px;
+    }
+}
+
+@-webkit-keyframes bjfly3 {
+    0% {
+        top: -15px;opacity: 1; 
+    } 100% {
+        width: 80%;
+        top: 500px;
+    }
+}
+
+@-webkit-keyframes bjfly4 {
+    0% {
+        left: 900px;top: -15px;opacity: 1; 
+    } 100% {
+        left: 80px;
+        top: 500px;
+    }
+}
+
+@-webkit-keyframes fireto {
+	from { opacity: 1; }
+    to { opacity: 1; }
+}
+
+@-webkit-keyframes emailiing {
+	10% {
+        left: 10%;
+        background: url('../img/picto-mail.png');
+    }
+    20% {
+        left: 20%;
+        background: url('../img/picto-mail.png') -56px 0px;
+    }30% {
+        left: 30%;
+        background: url('../img/picto-mail.png');
+    }
+    40% {
+        left: 40%;
+        background: url('../img/picto-mail.png') -56px 0px;
+    }60% {
+        left: 60%;
+        background: url('../img/picto-mail.png');
+    }
+    70% {
+        left: 70%;
+        background: url('../img/picto-mail.png') -56px 0px;
+    }80% {
+        left: 80%;
+        background: url('../img/picto-mail.png');
+    }
+    90% {
+        left: 90%;
+        background: url('../img/picto-mail.png') -56px 0px;
+    }
+}
+
+
+/* CLINTON ATTACK */
+
+@-webkit-keyframes lazershot {
+	from { left: 75%; opacity: 1; }
+    to { left: -100%; opacity: 1; }
+}
+
+@-webkit-keyframes rainbowshot {
+	from { left: 75%; opacity: 1; }
+    to { left: -100%; opacity: 1; }
+}
+
+@-webkit-keyframes wonderfly {
+	from { left: 77%; opacity: 1; }
+    to { left: -100%; opacity: 1; }
+}
+
+@-webkit-keyframes chuckappear {
+	0% { top: 280px; opacity: 1}
+    50% { top: 15px; opacity: 1;}
+    100% { top: 15px; opacity: 1;}
+}
+
+@-webkit-keyframes bulletshot {
+	0% { left: 350px; opacity: 1}
+    50% { left: 0px; opacity: 1;}
+}
+
+@-webkit-keyframes obama {
+	0% { top: 280px; opacity: 1}
+    50% { top: 15px; opacity: 1;}
+    100% { top: 15px; opacity: 1;}
+}
+
+@-webkit-keyframes obamattack {
+	0% { left: 0px; opacity: 1}
+    50% { left: 350px; opacity: 1;}
+}
