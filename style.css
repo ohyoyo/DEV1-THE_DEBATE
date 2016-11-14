@@ -135,6 +135,64 @@ header #healthclinton {
 }
 
 /* CLINTON ATTACKS */
+#trump-attacks {
+    width: 600px;
+    height: 275px;
+    top: 0px;
+    margin-left: 47%;
+    transform: translateX(-50%);
+    overflow: hidden;
+    position: relative;
+}
+
+#afire {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    overflow: hidden;
+    width: 500px;
+    opacity: 0;
+}
+
+#emailingat {
+    background: url('source/picto-mail.png') -56px 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 10px;
+    left: 500px;
+    width: 56px;
+    height: 54px;
+    opacity: 1;
+    
+}
+.email-click {
+    -webkit-animation: emailiing 2s ease-out;
+    -moz-animation: emailiing 2s ease-out;
+    animation: emailiing 2s ease-out;
+}
+
+
+#quiff {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    overflow: hidden;
+    width: 100px;
+    opacity: 0;
+    
+}
+.quiffcl {
+    -webkit-animation: quiffkill 1s ease-out;
+    -moz-animation: quiffkill 1s ease-out;
+    animation: quiffkill 1s ease-out;
+}
+
+.fire-click {
+    -webkit-animation: fireto 4s ease-out;
+    -moz-animation: fireto 4s ease-out;
+    animation: fireto 4s ease-out;
+}
 
 #clinton-attacks {
     width: 600px;
@@ -198,7 +256,6 @@ header #healthclinton {
     -moz-animation: wonderfly 2s ease-out;
     animation: wonderfly 2s ease-out;
 }
-
 
 #emailingat {
     position: absolute;
