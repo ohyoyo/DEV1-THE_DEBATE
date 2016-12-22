@@ -1,7 +1,7 @@
 ###### Yoann Di Maria - development student at Webstart.
 ---
 # THE DEBATE
-Yoann Di Maria & Thibault Germain,
+Yoann Di Maria & Thibault Germain (@Thibgr),
 CSS animation on a diplomatic battle between Hillary Clinton and Donald Trump
 The javascript used is used for generate the candidates' life.
 
